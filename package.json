@@ -1,16 +1,17 @@
 {
-  "name": "star-trek-server",
-  "version": "0.1.0",
-  "description": "server for star trek project",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Ivan Guzman",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.1"
-  }
+    "name": "star-trek-server",
+    "version": "0.1.0",
+    "description": "server for star trek project",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "Ivan Guzman",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "nodemon": "^2.0.16"
+    }
 }
