@@ -75,6 +75,14 @@ const aliens = {
         notableExamples: 'Jadzia Dax, Ezri Dax, Curzon Dax',
         image: 'https://static.wikia.nocookie.net/aliens/images/4/42/EzriDax.jpg',
     },
+    unknown: {
+        speciesName: 'Unknown',
+        homeWorld: 'Unknown',
+        features: 'Unknown',
+        interestingFact: 'Unknown',
+        notableExamples: 'Unknown',
+        image: 'https://static.wikia.nocookie.net/aliens/images/4/42/EzriDax.jpg',
+    },
 };
 
 app.get('/', (request, response) => {
@@ -86,8 +94,12 @@ app.get('/api/:alienName', (request, response) => {
     if (aliens[alienName]) {
         response.json(aliens[alienName]);
     } else {
-        response.json(aliens['humans']);
+        response.json(aliens['unknown']);
     }
+});
+
+app.get('/api/', (request, response) => {
+    response.json(aliens);
 });
 
 app.listen(process.env.PORT || PORT, () => {
