@@ -8,19 +8,19 @@ This project is the backend api. Please take a look at the frontend here [Star T
 
 <!-- ![app image](#) Image Gif in the works -->
 
-## How It's Made:
+## How It's Made
 
 **Tech used:** Node.js, Express.js
 
 I have been wanting to build a standalone api that anyone around the world can access. There is no fancy UI just our Star Trek API that anyone's frontend can consume.
 
-## Lessons Learned:
+## Lessons Learned
 
 When working with this API I had to learn the hard way on being able to consume the API. Everything was fine and dandy when the api was deployed to Heroku. The big problem occurred when I would continue getting CORS errors when making requests to the API endpoints. After doing some searches online I added the CORS dependency to be able to get the errors to no longer occur.
 
-## Examples:
+## Projects
 
-Take a look at these couple examples that I have in my own portfolio:
+Take a peek at other projects that I have in my own portfolio:
 
 **🚀 Portfolio:** [Portfolio](https://github.com/ivngzmn/ivanguzmandev)
 
